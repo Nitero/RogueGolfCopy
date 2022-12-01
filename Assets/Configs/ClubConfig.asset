@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12e79b2e93447dd8075032c28a4f5bd, type: 3}
+  m_Name: ClubConfig
+  m_EditorClassIdentifier: 
+  ClubTypes:
+  - Name: Bounce Scope
+    Description: See one more bounce in the predicted trajectory
+    RewardWeight: 1
+    Icon: {fileID: 21300000, guid: 577a08329eec35c47ba07d02d670b6a1, type: 3}
+    MaxAmountOfType: 0
+    ShowXTrajectoryBounces: 1
+    AddedTrajectoryDistance: 0
+    AddedShootStrength: 0
+    ExtraLives: 0
+    ExtraRewardOptions: 0
+    CanShootBeforeStop: 0
+    CanShootEveryXBallTwice: 0
+  - Name: Distance Scope
+    Description: See the distance a ball will go more accurately
+    RewardWeight: 2
+    Icon: {fileID: 21300000, guid: 787e589637cd9dc42bf6f79710d5d554, type: 3}
+    MaxAmountOfType: 3
+    ShowXTrajectoryBounces: 0
+    AddedTrajectoryDistance: 0.1
+    AddedShootStrength: 0
+    ExtraLives: 0
+    ExtraRewardOptions: 0
+    CanShootBeforeStop: 0
+    CanShootEveryXBallTwice: 0
+  - Name: Strong Club
+    Description: Makes you able to shoot balls further
+    RewardWeight: 3
+    Icon: {fileID: 21300000, guid: 49d569d196d1b5147a6c0fa9b37f5b77, type: 3}
+    MaxAmountOfType: 0
+    ShowXTrajectoryBounces: 0
+    AddedTrajectoryDistance: 0
+    AddedShootStrength: 10
+    ExtraLives: 0
+    ExtraRewardOptions: 0
+    CanShootBeforeStop: 0
+    CanShootEveryXBallTwice: 0
+  - Name: Revive Charm
+    Description: Get another attempt after failing to hit a goal once
+    RewardWeight: 1
+    Icon: {fileID: 21300000, guid: c268b893a3cc4694f978310103cbeaf8, type: 3}
+    MaxAmountOfType: 0
+    ShowXTrajectoryBounces: 0
+    AddedTrajectoryDistance: 0
+    AddedShootStrength: 0
+    ExtraLives: 1
+    ExtraRewardOptions: 0
+    CanShootBeforeStop: 0
+    CanShootEveryXBallTwice: 0
+  - Name: Options Charm
+    Description: Gives more options to pick from
+    RewardWeight: 0.5
+    Icon: {fileID: 21300000, guid: 489c28e606b5cd04a874ab83ad4cbeea, type: 3}
+    MaxAmountOfType: 1
+    ShowXTrajectoryBounces: 0
+    AddedTrajectoryDistance: 0
+    AddedShootStrength: 0
+    ExtraLives: 0
+    ExtraRewardOptions: 1
+    CanShootBeforeStop: 0
+    CanShootEveryXBallTwice: 0
+  - Name: ADHD Club
+    Description: You can shoot before the ball stops
+    RewardWeight: 0.25
+    Icon: {fileID: 21300000, guid: 9d78e35f5881eed4d959e760f1dbd8ff, type: 3}
+    MaxAmountOfType: 1
+    ShowXTrajectoryBounces: 0
+    AddedTrajectoryDistance: 0
+    AddedShootStrength: 0
+    ExtraLives: 0
+    ExtraRewardOptions: 0
+    CanShootBeforeStop: 1
+    CanShootEveryXBallTwice: 0
+  - Name: Multi Shot
+    Description: Every third ball can be shot twice
+    RewardWeight: 0.75
+    Icon: {fileID: 21300000, guid: 87fa35f304b03d742b540d08d67de557, type: 3}
+    MaxAmountOfType: 1
+    ShowXTrajectoryBounces: 0
+    AddedTrajectoryDistance: 0
+    AddedShootStrength: 0
+    ExtraLives: 0
+    ExtraRewardOptions: 0
+    CanShootBeforeStop: 0
+    CanShootEveryXBallTwice: 3

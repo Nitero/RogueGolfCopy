@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a8bd634c874f1eb97232762feb64fe, type: 3}
+  m_Name: BallConfig
+  m_EditorClassIdentifier: 
+  BallTypes:
+  - Name: Normal Ball
+    Description: Does nothing special
+    RewardWeight: 2
+    Icon: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    SizeModifier: 1
+    SpeedModifier: 1
+    WeightModifier: 1
+    BounceModifier: 1
+    BreakWallAfterXHits: 0
+    GoThroughXWalls: 0
+    CantFallOffEdge: 0
+    DoesntFallUntilStops: 0
+  - Name: Speed Ball
+    Description: Faster and smaller than the normal ball
+    RewardWeight: 1
+    Icon: {fileID: 21300000, guid: 3184ca5a6c20b2445bfc9c27141e0b26, type: 3}
+    SizeModifier: 0.75
+    SpeedModifier: 1.5
+    WeightModifier: 1
+    BounceModifier: 1
+    BreakWallAfterXHits: 0
+    GoThroughXWalls: 0
+    CantFallOffEdge: 0
+    DoesntFallUntilStops: 0
+  - Name: Phase Ball
+    Description: Goes through 1 wall
+    RewardWeight: 0.5
+    Icon: {fileID: 21300000, guid: 591a12d24bd364741b55368e15fd5af5, type: 3}
+    SizeModifier: 0.9
+    SpeedModifier: 1
+    WeightModifier: 1
+    BounceModifier: 1
+    BreakWallAfterXHits: 0
+    GoThroughXWalls: 1
+    CantFallOffEdge: 0
+    DoesntFallUntilStops: 0
+  - Name: Hard Ball
+    Description: Destroys walls after 3 hits but is slow and big
+    RewardWeight: 0.25
+    Icon: {fileID: 21300000, guid: ef8eb37090007a848aa045a743d70243, type: 3}
+    SizeModifier: 1.25
+    SpeedModifier: 0.666
+    WeightModifier: 1
+    BounceModifier: 1
+    BreakWallAfterXHits: 3
+    GoThroughXWalls: 0
+    CantFallOffEdge: 0
+    DoesntFallUntilStops: 0
+  - Name: Levitate Ball
+    Description: Doesn't fall until it stops
+    RewardWeight: 1.25
+    Icon: {fileID: 21300000, guid: 40b02b53a3630894cb4864e293202f4f, type: 3}
+    SizeModifier: 1
+    SpeedModifier: 1
+    WeightModifier: 1
+    BounceModifier: 1
+    BreakWallAfterXHits: 0
+    GoThroughXWalls: 0
+    CantFallOffEdge: 0
+    DoesntFallUntilStops: 1
+  - Name: Safety Ball
+    Description: Can't fall off edges
+    RewardWeight: 0.75
+    Icon: {fileID: 21300000, guid: 3a8681fa443ef2d409c6ecb795afa677, type: 3}
+    SizeModifier: 1
+    SpeedModifier: 1
+    WeightModifier: 1
+    BounceModifier: 1
+    BreakWallAfterXHits: 0
+    GoThroughXWalls: 0
+    CantFallOffEdge: 1
+    DoesntFallUntilStops: 0
